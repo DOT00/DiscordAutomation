@@ -1,5 +1,4 @@
 // DOting - If you have question you can send me a dm
-const ID = '270904126974590976';
 const Discord = require('discord.js-selfbot');
 const client = new Discord.Client();
 
@@ -14,10 +13,6 @@ fs.readdir('./commands/', (err, files) => {
   const commandHandler = require('./handler/commandHandler.js');
   commandHandler(err, files, client);
 });
-
-
-
-
 
 
 // simple rating random 1 to 100 - Doting my whole life 
