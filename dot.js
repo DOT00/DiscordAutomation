@@ -24,5 +24,8 @@ fs.readdir('./commands/', (err, files) => {
 });
 
 
+// i am not putting everything here since this is for public so if you want use your skills 
+//posting this to make others work easier then doing all the coding themself 
+// here you just make your own functions most of the things i have already made easier for you 
 
 client.login(process.env.TOKEN);
