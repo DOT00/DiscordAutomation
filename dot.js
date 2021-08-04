@@ -1,6 +1,7 @@
 // DOting - If you have question you can send me a dm
 const Discord = require('discord.js-selfbot');
 const client = new Discord.Client();
+const { token } = require("./config.json");
 
 // command handler - >W< to make things easier with prefix 
 client.commands = new Discord.Collection();
